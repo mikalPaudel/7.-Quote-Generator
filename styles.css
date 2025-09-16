@@ -17,7 +17,6 @@ body{
     display: flex;
     gap: 10px;
     flex-direction: column;
-    align-items: center;
     position: relative;
     width: 450px;
     padding: 40px;
@@ -37,31 +36,39 @@ body{
     line-height: 1.2em;
 }
 .container p{
-    color: #fff;
-    font-size: 1.2em;
+    color: #7c0000;
+    font-size: 1.35em;
     font-weight: 300;
     line-height: 1.5em;
-    margin-bottom: 20px;
+    margin: 10px;
+    text-align: center; 
 }
 .container .btn{
     position: relative;
     display: inline-block;
     padding: 10px 20px;
-    background: #211818;
+    background: #006d85b9;
     color: #fff;
     font-size: 1.2em;
-    border-radius: 5px;
+    font-weight: 600;
+    border-radius: 20px;
     box-shadow: 0 5px 10px rgba(33, 24, 24, 0.4);
     transition: 0.3s ease-in-out;
 }
 .container .btn:hover{
     background: #fff;
     color: #b36666;
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+    box-shadow: 0 5px 15px rgba(158, 157, 157, 0.4);
     transform: translateY(-5px);
     cursor: pointer;
 }
 .container .btn:active{
     transform: translateY(0);
     box-shadow: 0 2px 5px rgba(33, 24, 24, 0.4);
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
