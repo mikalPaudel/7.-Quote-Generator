@@ -12,5 +12,17 @@ async function getQuote(url) {
 getQuote(api_url);
 
 
+// this is not working now
+function shareOnFacebook(quote, author) {
+   const shareText = `${quote} ${author}`;
+  const url = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(shareText);
+
+  window.open(url, "_blank");
+};
+
+document.querySelector("#facebook").addEventListener("click", function() {
+    shareOnFacebook(quote.innerText, quoteAuthor.innerText);
+});
+
 
 
