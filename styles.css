@@ -35,7 +35,7 @@ body{
     text-align: center;
     line-height: 1.2em;
 }
-.container p{
+#quote-display{
     color: #7c0000;
     font-size: 1.35em;
     font-weight: 300;
@@ -71,4 +71,13 @@ body{
     display: flex;
     justify-content: space-around;
     width: 100%;
+}
+
+#author{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    font-style: italic;
 }
